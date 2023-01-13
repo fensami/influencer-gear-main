@@ -44,6 +44,7 @@ start journey style
 
 .start-journey{
     display: flex;
+    align-items: center;
     /* gap: 20px; */
 }
 .start-document{
@@ -52,9 +53,24 @@ start journey style
     margin: 145px 120px;
     
 }
+.start-document p{
+    font-weight: 600;
+    font-size: 16px;
+}
 .document-title{
     font-weight: 700;
-    font-size: 52px;
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+.first-btn{
+    margin-top: 16px;
+    color: white;
+    padding: 10px 20px 10px 10px;
+    background: #E02C6D;
+    border-radius: 41px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
 }
 .camera-picture{
     width: 440px;
@@ -70,11 +86,9 @@ start journey style
 /* Media Quary added */
 @media screen and (max-width: 576px) {
     .header nav,
-    nav ul{
+    nav ul,
+    .start-journey{
         flex-direction: column;
-
-    }
-    .header-title{
 
     }
     nav ul{
