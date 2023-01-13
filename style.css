@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+}
+/*-------- 
+    fonts
+----------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ------
+    Header
+    --------*/
+
+.header nav{
+    margin: 85px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    color: #3A3A3A;
+}
+/* nav li{
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+    list-style: none;
+} */
+.header-title{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+/* --------
+start journey style
+------------ */
+
+.start-journey{
+    display: flex;
+    /* gap: 20px; */
+}
+.start-document{
+    width: 582px;
+    height: 270px;
+    margin: 145px 120px;
+    
+}
+.document-title{
+    font-weight: 700;
+    font-size: 52px;
+}
+.camera-picture{
+    width: 440px;
+    height: 414px;
+}
+/* .first-btn{
+    width: 200px;
+} */
+
+
+
+
+/* Media Quary added */
+@media screen and (max-width: 576px) {
+    .header nav,
+    nav ul{
+        flex-direction: column;
+
+    }
+    .header-title{
+
+    }
+    nav ul{
+        gap: 5px;
+    }
+
+    
+}
