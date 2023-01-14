@@ -138,12 +138,68 @@ start journey style
     font-size: 14px;
 }
 
+/*============
+    featured style
+ ============== */
+
+ .featured{
+    display: flex;
+    gap: 96px;
+    margin: 100px 200px;
+    
+ }
+ .featured h2{
+    font-weight: 700;
+    font-size: 38px;
+    
+ }
+ .featured p{
+    margin: 16px 0 16px 0;
+    font-weight: 700;
+    font-size: 16px;
+ }
+ .featured button{
+    background-color: 
+    #E02C6D;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    width: 155px;
+    height: 44px;
+ }
 
 
-/* Media Quary added */
+ /* ----------- 
+     footer 
+ ------------- */
+ footer{
+   
+    padding: 20px;
+ }
+ .footer{
+    background-color: #0A0826;
+    text-align: center;
+ }
+ .footer-title{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+ }
+ .footer-paragraph{
+    color: white;
+    margin-bottom: 10px;
+ }
+
+
+
+/* -------------
+Media Quary added -
+--------------------*/
 @media screen and (max-width: 576px) {
     .header nav,
-    nav ul
+    nav ul,
+    .featured
     {
         flex-direction: column;
 
@@ -163,6 +219,13 @@ start journey style
     }
     .popular-collection title{
         margin-left: 47px;
+    }
+
+    .featured{
+        margin-left: 50px;
+    }
+    .featured p{
+        margin-bottom: 20px;
     }
 
     
