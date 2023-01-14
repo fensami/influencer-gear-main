@@ -39,12 +39,12 @@ start journey style
 .start-journey{
     display: flex;
     /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
     
 }
 .start-document{
-    width: 100%;
-    height: 270px;
+    /* width: 100%; */
+    /* height: 270px; */
     margin: 145px 120px;
     
 }
@@ -75,6 +75,20 @@ start journey style
     margin-top: 20px;
     /* height: 414px; */
 }
+/* ---------
+    Logo style
+    ------------- */
+    .logo img{
+        width: 55.05px;
+        height: 31.06px;
+    }
+    /* .cotainer-logo{
+        width: 55.05px;
+        height: 31.06px;
+    } */
+
+
+
 
 /* Popular Collection style */
 .popular-collection{
@@ -134,12 +148,11 @@ start journey style
         flex-direction: column;
 
     }
-    nav ul{
+    /* nav ul{
         gap: 5px;
-    }
+    } */
     .start-journey{
         flex-direction: column-reverse;
-       
     }
     .container{
         grid-template-columns: repeat(1, 1fr);
@@ -147,7 +160,9 @@ start journey style
     .popular-collection{
        margin-left: 80px;
        margin-right: 0;
-
+    }
+    .popular-collection title{
+        margin-left: 47px;
     }
 
     
