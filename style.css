@@ -71,17 +71,19 @@ start journey style
     color: white; 
 }
 .camera-picture{
-    width: 100%;
+    /* width: 100%; */
+    height: auto;
     margin-top: 20px;
+    margin-right: 80px ;
     /* height: 414px; */
 }
 /* ---------
     Logo style
     ------------- */
-    .logo img{
+    /* .logo img{
         width: 55.05px;
         height: 31.06px;
-    }
+    } */
     /* .cotainer-logo{
         width: 55.05px;
         height: 31.06px;
@@ -108,7 +110,8 @@ start journey style
 .content{
     /* background-color: #E02C6D; */
     box-shadow: 5px 5px 10px 10px #d2cece;
-    width: 329px;
+    /* width: 329px; */
+    padding: 0px 15px;
     height: 476px;
     border-radius: 10px;
 }
@@ -213,7 +216,7 @@ Media Quary added -
         grid-template-columns: repeat(1, 1fr);
     }
     .popular-collection{
-       margin-left: 50px;
+       margin-left: 0px;
        /* margin-right: 0; */
     }
     .popular-collection title{
@@ -226,6 +229,9 @@ Media Quary added -
     .featured p{
         margin-bottom: 20px;
     }
+    .camera-picture{
+        margin-right: 0;
+    }
 
     
 }
@@ -237,4 +243,8 @@ Media Quary added -
         grid-template-columns: repeat(2, 1fr);
     } */
     
+}
+
+.hide{
+    display: none;
 }
